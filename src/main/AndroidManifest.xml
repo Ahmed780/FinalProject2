@@ -5,22 +5,27 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/Maalamall"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FinalProject">
+        android:theme="@style/Theme.FinalProject"
+        >
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/SplashTheme"
-            >
+>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.FinalProject"/>
+        <activity android:name=".SecondActivity"
+            android:theme="@style/Theme.FinalProject"/>
+        <activity android:name=".ThirdActivity"
+            android:theme="@style/Theme.FinalProject"/>
     </application>
-
 </manifest>

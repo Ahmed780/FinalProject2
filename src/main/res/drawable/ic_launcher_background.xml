@@ -5,7 +5,8 @@
     </item>
     <item>
         <bitmap
-            android:src="@drawable/logo"
+            android:src= "@drawable/ic_launcher"
+            android:tileMode="disabled"
             android:gravity="center"/>
     </item>
 </layer-list>

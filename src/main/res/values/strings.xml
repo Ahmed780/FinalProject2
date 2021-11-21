@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="Maalamall">Maalamall</string>
+
+    <string-array name="Type">
+        <item>Sell</item>
+        <item>Buy</item>
+    </string-array>
+
+    <string-array name="Categories">
+        <item>Books</item>
+        <item>Electronics</item>
+        <item>Computers and Tablets</item>
+    </string-array>
 </resources>

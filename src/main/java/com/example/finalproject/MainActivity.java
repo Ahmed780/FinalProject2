@@ -14,17 +14,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         loginbtn = findViewById(R.id.login_btn);
-
-        startActivity(new Intent(MainActivity.this,SecondActivity.class));
-        finish();
+        getSupportActionBar().hide();
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,ThirdActivity.class));
-                finish();
+                Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+                startActivity(intent);
             }
         });
     }
