@@ -20,7 +20,7 @@
         android:id="@+id/editPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="20"
         android:inputType="textPersonName"
         android:layout_below="@id/EditName"
         android:layout_centerInParent="true"
